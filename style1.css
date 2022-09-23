@@ -1,0 +1,101 @@
+header {
+  width: 100vw;
+  height: 20vh;
+}
+header,
+footer {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+a {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+}
+div #tel {
+  color: #ee1c1f;
+}
+div #button {
+  color: #ee1c1f;
+  border: 1px solid #ee1c1f;
+  background-color: white;
+  cursor: pointer;
+}
+a:visited {
+  color: crimson;
+}
+a:hover {
+  font-size: larger;
+}
+a :active {
+  color: aqua;
+}
+.box1 {
+  width: 50vw;
+  height: 50px;
+  display: inline-block;
+  padding: 30px 60px 30px 60px;
+}
+#logo2 {
+  float: left;
+  width: 10%;
+}
+#slogan {
+  float: right;
+  width: 90%;
+}
+.box2 {
+  width: 50vw;
+  height: 200px;
+  display: inline-block;
+  padding: 30px 20px 30px 20px;
+}
+#logo3 {
+  float: left;
+  height: 30vh;
+  width: 30%;
+}
+#title {
+  float: right;
+  width: 70%;
+}
+h1,
+h4,
+h6 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+h1,
+h6 {
+  color: #ee1c1f;
+  text-transform: uppercase;
+}
+h4 {
+  text-transform: uppercase;
+  color: black;
+}
+.box3 {
+  display: inline-block;
+  width: 30vw;
+}
+#picture {
+  float: left;
+  width: 20%;
+}
+footer span {
+  float: right;
+  width: 80%;
+}
+footer p {
+  clear: both;
+}

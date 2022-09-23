@@ -1,0 +1,37 @@
+header {
+  height: 20vh;
+  padding: 20px;
+  text-align: center;
+}
+main {
+  float: left;
+  height: 60vh;
+  width: 75vw;
+  text-align: center;
+}
+aside {
+  float: right;
+  height: 60vh;
+  width: 25vw;
+  text-align: center;
+}
+footer {
+  clear: both;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+.footercontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer p {
+  border: 1px solid black;
+  padding: 20px;
+  width: 200px;
+}
